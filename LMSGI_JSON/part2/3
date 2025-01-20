@@ -1,0 +1,72 @@
+{
+  "pokemons": [
+    {
+      "id": 1,
+      "name": "Bulbasaur",
+      "type": ["Grass", "Poison"],
+      "weight": "6.9 kg",
+      "height": "0.7 m",
+      "stats": {
+        "speed": 45,
+        "strength": 49,
+        "accuracy": 65,
+        "resilience": 49
+      },
+      "moves": [
+        {
+          "name": "Tackle",
+          "description": "A physical attack in which the user charges and slams into the target.",
+          "power": 40,
+          "contact": true
+        },
+        {
+          "name": "Growl",
+          "description": "The user growls in an endearing way, making opposing Pokémon less wary.",
+          "power": null,
+          "contact": false
+        }
+      ],
+      "image": "https://www.wikidex.net/wiki/Archivo:Bulbasaur.png",
+      "evolutions": [
+        {
+          "id": 2,
+          "level_required": 16
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Ivysaur",
+      "type": ["Grass", "Poison"],
+      "weight": "13.0 kg",
+      "height": "1.0 m",
+      "stats": {
+        "speed": 60,
+        "strength": 62,
+        "accuracy": 75,
+        "resilience": 63
+      },
+      "moves": [
+        {
+          "name": "Vine Whip",
+          "description": "The target is struck with slender, whiplike vines.",
+          "power": 45,
+          "contact": true
+        },
+        {
+          "name": "Razor Leaf",
+          "description": "Sharp-edged leaves are launched to slash at opposing Pokémon.",
+          "power": 55,
+          "contact": false
+        }
+      ],
+      "image": "https://www.wikidex.net/wiki/Archivo:Ivysaur.png",
+      "evolutions": [
+        {
+          "id": 3,
+          "level_required": 32
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Document XML que representa una llista de productes d'una botiga online -->
+<botiga nom="BotigaOnline" dataActualitzacio="2024-12-10">
+    <!-- Informació d'un producte -->
+    <producte codi="P001">
+        <nom>Rellotge Intel·ligent</nom>
+        <descripcio>Rellotge intel·ligent amb monitoratge de salut i notificacions.</descripcio>
+        <preu moneda="EUR">129.99</preu>
+        <categoria>Electrònica</categoria>
+        <disponibilitat>En estoc</disponibilitat>
+        <imatge url="https://www.woodenson.com/wp-content/uploads/2019/03/DSC_0112.jpg" />
+    </producte>
+
+    <!-- Informació d'un altre producte -->
+    <producte codi="P002">
+        <nom>Motxilla Urbana</nom>
+        <descripcio>Motxilla ergonòmica amb múltiples compartiments, ideal per a ús diari.</descripcio>
+        <preu moneda="EUR">49.99</preu>
+        <categoria>Accessoris</categoria>
+        <disponibilitat>Esgotat</disponibilitat>
+        <imatge url="https://www.giftcampaign.es/media/catalog/product/cache/1/image/666x/040ec09b1e35df139433887a97daa66f/t/p/tplt95223-n0002_yl.jpg"> </imatge>
+    </producte>
+</botiga>
