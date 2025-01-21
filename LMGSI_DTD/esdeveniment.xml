@@ -10,6 +10,10 @@
             <nom>Angelina Jolie</nom>
             <edat>48</edat>
         </actor>
+        <actor id="a3">
+            <nom>Leonardo DiCaprio</nom>
+            <edat>49</edat>
+        </actor>
     </llista_actors>
 
     <llista_pelicules>
@@ -22,9 +26,28 @@
                 <actor_ref ref="a2"/>
             </actors>
         </pelicula>
+        <pelicula id="p2">
+            <titol idioma="CA">Titanic</titol>
+            <director>James Cameron</director>
+            <any>1997</any>
+            <actors>
+                <actor_ref ref="a3"/>
+            </actors>
+        </pelicula>
+        <pelicula id="p3">
+            <titol idioma="CA">Once Upon a Time in Hollywood</titol>
+            <director>Quentin Tarantino</director>
+            <any>2019</any>
+            <actors>
+                <actor_ref ref="a1"/>
+                <actor_ref ref="a3"/>
+            </actors>
+        </pelicula>
     </llista_pelicules>
 
     <llista_recomanacions_pelicules>
         <recomanacio ref="p1"/>
+        <recomanacio ref="p2"/>
+        <recomanacio ref="p3"/>
     </llista_recomanacions_pelicules>
 </cataleg>
